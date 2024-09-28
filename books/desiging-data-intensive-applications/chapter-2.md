@@ -33,7 +33,7 @@ SPARQL is a query language for triple-store models.
 
 ```
 The key ideas are,
-* relational database serve well for less complex many-to-many relationships.
+* relational database serve well for one-to-one, many-to-one and less complex many-to-many relationships.
 * document databases target usecases where data comes in self-contained documents and relationships between one document and another is rare or the relationship is just one-to-many.
 * graph database target usecases with complex many-to-many relationship where anything is potentially related to everything.
 ```
